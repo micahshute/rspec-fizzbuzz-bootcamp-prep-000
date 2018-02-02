@@ -4,10 +4,13 @@ def fizzbuzz(number)
   divByFive = (number % 5) == 0) 
   if (divByThree) == 0
     answer += "Fizz"
+  else
+    divByThree = FALSE
   end
   if (divByFive) == 0 
     answer += "Buzz"
-  elsif()
+  else
+    divByFive
   end
-  return answer
+  return (!divByThree && !divByFive) ? NIL : answer
 end
