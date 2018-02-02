@@ -10,7 +10,7 @@ def fizzbuzz(number)
   if (divByFive) == 0 
     answer += "Buzz"
   else
-    divByFive
+    divByFive = FALSE
   end
   return (!divByThree && !divByFive) ? NIL : answer
 end
